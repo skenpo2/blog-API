@@ -161,6 +161,36 @@ const getAPostComments = async (req, res) => {
     data: comments,
   });
 };
+const likeComment = async (req, res) => {
+  const { commentId } = req.params;
+  const userId = req.user.id;
+
+  const comment = await Comment.findById(commentId);
+  if (!comment) {
+    return res.status(404).json({
+      success: false,
+      message: 'Comment not found',
+    });
+  }
+
+  const hasLiked = comment.likes.includes(userId);
+
+  if (hasLiked) {
+    await Comment.findByIdAndUpdate(commentId, { $pull: { likes: userId } });
+    return res.status(200).json({
+      success: true,
+      message: 'Unliked comment',
+    });
+  } else {
+    await Comment.findByIdAndUpdate(commentId, {
+      $addToSet: { likes: userId },
+    });
+    return res.status(200).json({
+      success: true,
+      message: 'Liked comment',
+    });
+  }
+};
 
 module.exports = {
   addComment,
@@ -168,4 +198,5 @@ module.exports = {
   deleteComment,
   getSingleComment,
   getAPostComments,
+  likeComment,
 };

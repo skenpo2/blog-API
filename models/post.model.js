@@ -52,7 +52,7 @@ const postSchema = new mongoose.Schema(
     likes: [
       {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Like',
+        ref: 'User',
       },
     ],
   },
@@ -65,7 +65,6 @@ postSchema.pre('findOneAndDelete', async function (next) {
   if (post) {
     // Delete associated comments and likes
     await mongoose.model('Comment').deleteMany({ _id: { $in: post.comments } });
-    await mongoose.model('Like').deleteMany({ _id: { $in: post.likes } });
 
     // Delete image from Cloudinary
     if (post.image?.publicId) {

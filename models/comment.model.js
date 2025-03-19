@@ -17,6 +17,13 @@ const commentSchema = new mongoose.Schema({
     minlength: [5, 'Comment must be at least 5 characters long'],
     maxlength: [300, 'Comment title cannot exceed 150 characters'],
   },
+
+  likes: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+    },
+  ],
 });
 
 const Comment = mongoose.model('Comment', commentSchema);

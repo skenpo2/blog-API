@@ -168,6 +168,35 @@ const getAllPost = async (req, res) => {
   });
 };
 
+const likePost = async (req, res) => {
+  const { postId } = req.params;
+  const userId = req.user.id;
+
+  const post = await Post.findById(postId);
+  if (!post) {
+    return res.status(404).json({
+      success: false,
+      message: 'Post not found',
+    });
+  }
+
+  const hasLiked = post.likes.includes(userId);
+
+  if (hasLiked) {
+    await Post.findByIdAndUpdate(postId, { $pull: { likes: userId } });
+    return res.status(200).json({
+      success: true,
+      message: 'Unliked post',
+    });
+  } else {
+    await Post.findByIdAndUpdate(postId, { $addToSet: { likes: userId } });
+    return res.status(200).json({
+      success: true,
+      message: 'Liked post',
+    });
+  }
+};
+
 module.exports = {
   imageUpload,
   addPost,
@@ -175,4 +204,5 @@ module.exports = {
   deletePost,
   getOnePost,
   getAllPost,
+  likePost,
 };
