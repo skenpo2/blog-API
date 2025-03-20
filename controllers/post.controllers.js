@@ -1,5 +1,6 @@
 const Post = require('../models/post.model');
 const User = require('../models/user.model');
+const cloudinary = require('cloudinary').v2;
 const { validatePost } = require('../utils/validator');
 
 // cloudinary configuration

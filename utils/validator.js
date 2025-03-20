@@ -19,8 +19,6 @@ const validateLogin = (data) => {
   return schema.validate(data);
 };
 
-const Joi = require('joi');
-
 const validatePost = (data) => {
   const schema = Joi.object({
     title: Joi.string().min(5).max(150).required(),

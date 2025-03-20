@@ -9,6 +9,11 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 // routes import
 
+const authRoutes = require('./routes/auth.route');
+const userRoutes = require('./routes/user.route');
+const postRoutes = require('./routes/post.route');
+const commentRoutes = require('./routes/comment.route');
+
 const errorHandler = require('./middlewares/errorHandler');
 
 const app = express();
@@ -30,6 +35,11 @@ app.use((req, res, next) => {
 });
 
 // routes
+
+app.use('/auth', authRoutes);
+app.use('/user', userRoutes);
+app.use('/post', postRoutes);
+app.use('/comment', commentRoutes);
 
 app.use(errorHandler);
 

@@ -83,7 +83,7 @@ const loginUser = async (req, res) => {
     });
 };
 
-const refresh = (req, res) => {
+const refresh = async (req, res) => {
   const cookies = req.cookies;
 
   if (!cookies?.jwt) {

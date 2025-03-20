@@ -1,6 +1,5 @@
 const Post = require('../models/post.model');
 const Comment = require('../models/comment.model');
-const Comment = require('../models/comment.model');
 
 const addComment = async (req, res) => {
   const userId = req.user.id;
