@@ -1,9 +1,15 @@
+const logger = require('../utils/logger');
+
 /**
  * Centralized error-handling middleware
  */
 const errorHandler = (err, req, res, next) => {
   let statusCode = err.statusCode || 500;
   let message = err.message || 'Internal Server Error';
+
+  // Log error details
+  logger.error(`❌ Error: ${message}`);
+  logger.error(err.stack); // Logs the full stack trace for debugging
 
   // Handle Mongoose Validation Errors
   if (err.name === 'ValidationError') {

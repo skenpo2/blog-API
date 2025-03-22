@@ -87,7 +87,7 @@ const refresh = async (req, res) => {
   const cookies = req.cookies;
 
   if (!cookies?.jwt) {
-    res.status(400).json({
+    return res.status(400).json({
       success: false,
       message: 'unauthorized',
     });
@@ -124,7 +124,7 @@ const logout = async (req, res) => {
   const cookies = req.cookies;
 
   if (!cookies?.jwt) {
-    res.status(400).json({
+    return res.status(400).json({
       success: false,
       message: 'No cookie found',
     });

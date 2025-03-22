@@ -11,10 +11,17 @@ cloudinary.config({
 });
 
 // upload image to cloudinary
-// response: url and public ID so that it can be sent while creating the product
+// response: url and public ID so that it can be sent while creating the post
 
 const imageUpload = async (req, res) => {
-  const b64 = Buffer.from(req.file.buffer).toString('base64');
+  if (!req.file) {
+    return res.status(400).json({
+      success: false,
+      message: 'Please upload an image',
+    });
+  }
+
+  const b64 = Buffer.from(req.file.buffer).toString('base64') || null;
   const url = 'data:' + req.file.mimetype + ';base64,' + b64;
   const result = await cloudinary.uploader.upload(url, {
     resource_type: 'auto',

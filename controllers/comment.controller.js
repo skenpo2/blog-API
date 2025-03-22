@@ -3,14 +3,14 @@ const Comment = require('../models/comment.model');
 
 const addComment = async (req, res) => {
   const userId = req.user.id;
-  const postId = req.params.postId;
 
-  const { comment } = req.body;
+  const { comment, postId } = req.body;
 
   const post = await Post.findById(postId);
   if (!post) {
     return res.status(404).json({
       success: false,
+      message: 'post not found',
     });
   }
 
@@ -27,9 +27,8 @@ const addComment = async (req, res) => {
 
 const editComment = async (req, res) => {
   const userId = req.user.id;
-  const postId = req.params.postId;
 
-  const { id, comment } = req.body;
+  const { commentId, comment, postId } = req.body;
 
   const post = await Post.findById(postId);
   if (!post) {
@@ -38,7 +37,7 @@ const editComment = async (req, res) => {
     });
   }
 
-  const isComment = await Comment.findById(id);
+  const isComment = await Comment.findById(commentId);
   if (!isComment) {
     return res.status(404).json({
       success: false,
@@ -72,8 +71,7 @@ const editComment = async (req, res) => {
 const deleteComment = async (req, res) => {
   const userId = req.user.id;
   const role = req.user.role;
-  const postId = req.params.postId;
-  const { id } = req.body;
+  const { commentId, postId } = req.body;
 
   const post = await Post.findById(postId);
   if (!post) {
@@ -83,7 +81,7 @@ const deleteComment = async (req, res) => {
     });
   }
 
-  const comment = await Comment.findById(id);
+  const comment = await Comment.findById(commentId);
   if (!comment) {
     return res.status(404).json({
       success: false,
@@ -108,11 +106,11 @@ const deleteComment = async (req, res) => {
   }
 
   // Remove comment reference from post
-  post.comments.pull(id);
+  post.comments.pull(commentId);
   await post.save();
 
   // Delete the comment
-  await Comment.deleteOne({ _id: id });
+  await Comment.deleteOne({ _id: commentId });
 
   return res.status(200).json({
     success: true,
@@ -146,7 +144,7 @@ const getSingleComment = async (req, res) => {
 
 const getAPostComments = async (req, res) => {
   const { postId } = req.params;
-
+  console.log(postId);
   const comments = await Comment.find({ postId });
 
   if (comments.length === 0) {

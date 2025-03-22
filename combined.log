@@ -305,3 +305,413 @@
 {"API":"E-Commerce","level":"info","message":"App is running on 5001","timestamp":"2025-03-20T17:11:07.964Z"}
 {"API":"E-Commerce","level":"info","message":"MongoDB is connected","timestamp":"2025-03-20T17:11:21.875Z"}
 {"API":"E-Commerce","level":"info","message":"App is running on 5001","timestamp":"2025-03-20T17:11:21.887Z"}
+{"API":"E-Commerce","level":"info","message":"MongoDB is connected","timestamp":"2025-03-20T18:05:34.660Z"}
+{"API":"E-Commerce","level":"info","message":"App is running on 5001","timestamp":"2025-03-20T18:05:34.678Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request  to /auth/register","timestamp":"2025-03-20T18:05:41.720Z"}
+{"API":"E-Commerce","level":"info","message":"Request body,  [object Object] ","timestamp":"2025-03-20T18:05:41.723Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request  to /auth","timestamp":"2025-03-20T18:07:47.223Z"}
+{"API":"E-Commerce","level":"info","message":"Request body,  [object Object] ","timestamp":"2025-03-20T18:07:47.225Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request  to /auth/login","timestamp":"2025-03-20T18:07:58.406Z"}
+{"API":"E-Commerce","level":"info","message":"Request body,  [object Object] ","timestamp":"2025-03-20T18:07:58.407Z"}
+{"API":"E-Commerce","level":"info","message":"MongoDB is connected","timestamp":"2025-03-20T18:08:47.819Z"}
+{"API":"E-Commerce","level":"info","message":"App is running on 5001","timestamp":"2025-03-20T18:08:47.832Z"}
+{"API":"E-Commerce","level":"info","message":"MongoDB is connected","timestamp":"2025-03-20T18:08:55.743Z"}
+{"API":"E-Commerce","level":"info","message":"App is running on 5001","timestamp":"2025-03-20T18:08:55.764Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request  to /auth/login","timestamp":"2025-03-20T18:08:59.600Z"}
+{"API":"E-Commerce","level":"info","message":"Request body,  [object Object] ","timestamp":"2025-03-20T18:08:59.602Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request  to /auth/register","timestamp":"2025-03-20T18:09:10.511Z"}
+{"API":"E-Commerce","level":"info","message":"Request body,  [object Object] ","timestamp":"2025-03-20T18:09:10.512Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request  to /auth/register","timestamp":"2025-03-20T18:13:11.557Z"}
+{"API":"E-Commerce","level":"info","message":"Request body,  [object Object] ","timestamp":"2025-03-20T18:13:11.560Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request  to /auth/register","timestamp":"2025-03-20T18:14:55.804Z"}
+{"API":"E-Commerce","level":"info","message":"Request body,  [object Object] ","timestamp":"2025-03-20T18:14:55.806Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request  to /auth/login","timestamp":"2025-03-22T07:13:59.097Z"}
+{"API":"E-Commerce","level":"info","message":"Request body,  [object Object] ","timestamp":"2025-03-22T07:13:59.101Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request  to /auth/refresh","timestamp":"2025-03-22T07:15:40.031Z"}
+{"API":"E-Commerce","level":"info","message":"Request body,  [object Object] ","timestamp":"2025-03-22T07:15:40.032Z"}
+{"API":"E-Commerce","level":"info","message":"MongoDB is connected","timestamp":"2025-03-22T07:26:14.510Z"}
+{"API":"E-Commerce","level":"info","message":"App is running on 5001","timestamp":"2025-03-22T07:26:14.516Z"}
+{"API":"E-Commerce","level":"info","message":"MongoDB is connected","timestamp":"2025-03-22T07:26:52.995Z"}
+{"API":"E-Commerce","level":"info","message":"App is running on 5001","timestamp":"2025-03-22T07:26:53.001Z"}
+{"API":"E-Commerce","level":"info","message":"✅ MongoDB connected successfully.","timestamp":"2025-03-22T07:27:14.299Z"}
+{"API":"E-Commerce","level":"info","message":"🚀 Server running on 5001","timestamp":"2025-03-22T07:27:14.305Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /auth/refresh","timestamp":"2025-03-22T07:28:03.551Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T07:28:03.552Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:08:07.287Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:08:07.293Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:08:17.792Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:08:17.797Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:08:56.349Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:08:56.355Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /auth/refresh","timestamp":"2025-03-22T08:09:02.573Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:09:02.574Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/logout","timestamp":"2025-03-22T08:11:06.332Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:11:06.334Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T08:12:03.857Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {\"email\":\"first@user.com\",\"password\":\"firstpass\"}","timestamp":"2025-03-22T08:12:03.858Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /auth/log","timestamp":"2025-03-22T08:12:11.042Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:12:11.044Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /auth/logout","timestamp":"2025-03-22T08:12:19.304Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:12:19.305Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /auth/logout","timestamp":"2025-03-22T08:12:23.852Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:12:23.854Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/logout","timestamp":"2025-03-22T08:12:39.924Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:12:39.924Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /auth/refresh","timestamp":"2025-03-22T08:14:28.069Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:16:12.903Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:16:12.908Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:16:37.231Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:16:37.238Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:16:40.698Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:16:40.705Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:17:00.366Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:17:00.373Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T08:17:10.336Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {\"email\":\"first@user.com\",\"password\":\"firstpass\"}","timestamp":"2025-03-22T08:17:10.337Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /auth/refresh","timestamp":"2025-03-22T08:17:28.544Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:17:28.545Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /user/67dc5ab730c3c3801aa88364","timestamp":"2025-03-22T08:20:54.951Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:20:54.953Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:23:23.336Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:23:23.344Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /user/67dc5ab730c3c3801aa88364","timestamp":"2025-03-22T08:23:29.921Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:23:29.921Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:24:38.166Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:24:38.173Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /user/67dc5ab730c3c3801aa88364","timestamp":"2025-03-22T08:24:45.932Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:24:45.932Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:25:14.058Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:25:14.064Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /user/67dc5ab730c3c3801aa88364","timestamp":"2025-03-22T08:25:18.516Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:25:18.517Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:27:53.513Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:27:53.521Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /user/","timestamp":"2025-03-22T08:30:00.093Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:30:00.093Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /user","timestamp":"2025-03-22T08:30:06.061Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:30:06.062Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /user","timestamp":"2025-03-22T08:30:19.805Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:30:19.806Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T08:30:40.899Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {\"email\":\"first@user.com\",\"password\":\"firstpass\"}","timestamp":"2025-03-22T08:30:40.900Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /user","timestamp":"2025-03-22T08:31:17.324Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:31:17.324Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: validateEditedUser is not a function","timestamp":"2025-03-22T08:31:17.330Z"}
+{"API":"E-Commerce","level":"error","message":"TypeError: validateEditedUser is not a function\n    at updateUser (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\user.controller.js:8:21)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\middlewares\\verifyJWT.js:26:5\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\jsonwebtoken\\verify.js:261:12\n    at getSecret (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at verifyJWT (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\middlewares\\verifyJWT.js:18:7)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)","timestamp":"2025-03-22T08:31:17.331Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:34:45.710Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:34:45.716Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:34:56.106Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:34:56.113Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:35:09.308Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:35:09.316Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /user","timestamp":"2025-03-22T08:35:16.628Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:35:16.629Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /user","timestamp":"2025-03-22T08:35:55.057Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {\"name\":\"first of User\"}","timestamp":"2025-03-22T08:35:55.059Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/register","timestamp":"2025-03-22T08:38:21.173Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {\"name\":\"second user\",\"email\":\"first@user.com\",\"password\":\"firstpass\"}","timestamp":"2025-03-22T08:38:21.174Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/register","timestamp":"2025-03-22T08:38:38.126Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {\"name\":\"second user\",\"email\":\"second@user.com\",\"password\":\"secondpass\"}","timestamp":"2025-03-22T08:38:38.127Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/register","timestamp":"2025-03-22T08:39:00.101Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {\"name\":\"third user\",\"email\":\"third@user.com\",\"password\":\"thirdpass\"}","timestamp":"2025-03-22T08:39:00.102Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /user/67de772408f017d3e57a81c1","timestamp":"2025-03-22T08:40:22.720Z"}
+{"API":"E-Commerce","level":"info","message":"Request body: {}","timestamp":"2025-03-22T08:40:22.720Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:41:44.803Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:41:44.812Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /user/67de772408f017d3e57a81c1","timestamp":"2025-03-22T08:41:52.598Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /user","timestamp":"2025-03-22T08:42:53.161Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /user","timestamp":"2025-03-22T08:43:41.198Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /user","timestamp":"2025-03-22T08:43:43.149Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /user","timestamp":"2025-03-22T08:43:59.265Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /user","timestamp":"2025-03-22T08:45:31.136Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T08:47:01.124Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T08:47:09.144Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T08:47:48.769Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /user","timestamp":"2025-03-22T08:48:21.232Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /user","timestamp":"2025-03-22T08:51:58.260Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /user","timestamp":"2025-03-22T08:52:07.245Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:52:40.687Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:52:40.693Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:53:04.212Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:53:04.218Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:53:26.344Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:53:26.352Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /user","timestamp":"2025-03-22T08:53:31.622Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T08:57:47.127Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Cannot read properties of undefined (reading 'buffer')","timestamp":"2025-03-22T08:57:47.132Z"}
+{"API":"E-Commerce","level":"error","message":"TypeError: Cannot read properties of undefined (reading 'buffer')\n    at imageUpload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\post.controllers.js:17:36)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at multerMiddleware (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\multer\\lib\\make-middleware.js:13:41)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\middlewares\\verifyJWT.js:26:5\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\jsonwebtoken\\verify.js:261:12","timestamp":"2025-03-22T08:57:47.133Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T08:59:32.783Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T08:59:32.791Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T08:59:37.689Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","timestamp":"2025-03-22T08:59:37.702Z"}
+{"API":"E-Commerce","level":"error","message":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined\n    at Function.from (node:buffer:319:9)\n    at imageUpload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\post.controllers.js:17:22)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at multerMiddleware (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\multer\\lib\\make-middleware.js:13:41)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\middlewares\\verifyJWT.js:26:5","timestamp":"2025-03-22T08:59:37.704Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T09:00:58.534Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T09:00:58.542Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T09:02:17.062Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T09:02:17.070Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T09:02:28.255Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Cannot read properties of undefined (reading 'buffer')","timestamp":"2025-03-22T09:02:28.262Z"}
+{"API":"E-Commerce","level":"error","message":"TypeError: Cannot read properties of undefined (reading 'buffer')\n    at imageUpload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\post.controllers.js:17:25)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at multerMiddleware (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\multer\\lib\\make-middleware.js:13:41)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\middlewares\\verifyJWT.js:26:5\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\jsonwebtoken\\verify.js:261:12","timestamp":"2025-03-22T09:02:28.263Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T09:02:32.036Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Cannot read properties of undefined (reading 'buffer')","timestamp":"2025-03-22T09:02:32.040Z"}
+{"API":"E-Commerce","level":"error","message":"TypeError: Cannot read properties of undefined (reading 'buffer')\n    at imageUpload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\post.controllers.js:17:25)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at multerMiddleware (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\multer\\lib\\make-middleware.js:13:41)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\middlewares\\verifyJWT.js:26:5\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\jsonwebtoken\\verify.js:261:12","timestamp":"2025-03-22T09:02:32.041Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T09:02:52.262Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T09:02:52.271Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T09:02:56.931Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Cannot read properties of undefined (reading 'buffer')","timestamp":"2025-03-22T09:02:56.940Z"}
+{"API":"E-Commerce","level":"error","message":"TypeError: Cannot read properties of undefined (reading 'buffer')\n    at imageUpload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\post.controllers.js:17:25)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at multerMiddleware (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\multer\\lib\\make-middleware.js:13:41)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\middlewares\\verifyJWT.js:26:5\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\jsonwebtoken\\verify.js:261:12","timestamp":"2025-03-22T09:02:56.941Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T09:03:22.132Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T09:03:22.140Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T09:08:14.003Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T09:08:14.014Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T09:08:18.294Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T09:08:18.299Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T09:08:23.400Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T09:10:03.114Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Must supply api_key","timestamp":"2025-03-22T09:10:03.145Z"}
+{"API":"E-Commerce","level":"error","message":"Error: Must supply api_key\n    at ensureOption (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n    at Object.sign_request (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\index.js:1164:16)\n    at Object.process_request_params (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\index.js:1214:22)\n    at call_api (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n    at Object.upload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n    at Object.upload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\index.js:1411:21)\n    at imageUpload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\post.controllers.js:26:44)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)","timestamp":"2025-03-22T09:10:03.146Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T09:11:13.163Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Must supply api_key","timestamp":"2025-03-22T09:11:13.171Z"}
+{"API":"E-Commerce","level":"error","message":"Error: Must supply api_key\n    at ensureOption (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n    at Object.sign_request (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\index.js:1164:16)\n    at Object.process_request_params (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\index.js:1214:22)\n    at call_api (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n    at Object.upload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n    at Object.upload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\index.js:1411:21)\n    at imageUpload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\post.controllers.js:26:44)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)","timestamp":"2025-03-22T09:11:13.172Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T09:11:15.712Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Must supply api_key","timestamp":"2025-03-22T09:11:15.727Z"}
+{"API":"E-Commerce","level":"error","message":"Error: Must supply api_key\n    at ensureOption (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n    at Object.sign_request (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\index.js:1164:16)\n    at Object.process_request_params (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\index.js:1214:22)\n    at call_api (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n    at Object.upload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n    at Object.upload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\cloudinary\\lib\\utils\\index.js:1411:21)\n    at imageUpload (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\post.controllers.js:26:44)\n    at newFn (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\express\\lib\\router\\route.js:149:13)","timestamp":"2025-03-22T09:11:15.727Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T09:12:08.645Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T09:12:08.651Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/upload","timestamp":"2025-03-22T09:12:20.069Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Expected double-quoted property name in JSON at position 347","timestamp":"2025-03-22T09:17:30.174Z"}
+{"API":"E-Commerce","level":"error","message":"SyntaxError: Expected double-quoted property name in JSON at position 347\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2025-03-22T09:17:30.175Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/","timestamp":"2025-03-22T09:17:42.794Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/","timestamp":"2025-03-22T09:18:25.040Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/","timestamp":"2025-03-22T09:19:03.193Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/","timestamp":"2025-03-22T09:19:24.396Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T09:21:25.951Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T09:21:25.957Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/","timestamp":"2025-03-22T09:22:59.559Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/","timestamp":"2025-03-22T09:23:09.138Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/","timestamp":"2025-03-22T09:23:43.117Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Expected property name or '}' in JSON at position 7","timestamp":"2025-03-22T09:26:56.888Z"}
+{"API":"E-Commerce","level":"error","message":"SyntaxError: Expected property name or '}' in JSON at position 7\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2025-03-22T09:26:56.890Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /post/67de80876ea9735a0920f721","timestamp":"2025-03-22T09:27:46.124Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T09:28:33.667Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /post/67de80876ea9735a0920f721","timestamp":"2025-03-22T09:29:10.615Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T09:29:32.874Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /post/67de80876ea9735a0920f721","timestamp":"2025-03-22T09:30:33.347Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /post/67de80876ea9735a0920f721","timestamp":"2025-03-22T09:32:29.083Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /post/67de80876ea9735a0920f721","timestamp":"2025-03-22T09:32:38.542Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: deleteImage is not defined","timestamp":"2025-03-22T09:32:38.561Z"}
+{"API":"E-Commerce","level":"error","message":"ReferenceError: deleteImage is not defined\n    at model.Query.<anonymous> (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\models\\post.model.js:71:7)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-03-22T09:32:38.562Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:32:35.568Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:32:35.574Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:33:01.286Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:33:01.338Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:33:13.049Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:33:13.058Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:34:42.164Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:34:42.172Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:35:38.639Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:35:38.652Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:35:50.618Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:35:50.626Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:36:06.972Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:36:06.980Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:36:54.678Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:36:54.683Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:37:40.436Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:37:40.445Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:38:05.244Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:38:05.260Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:38:31.042Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:38:31.052Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:38:59.618Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:38:59.626Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:39:16.278Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:39:16.285Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:40:00.063Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:40:00.071Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:40:52.726Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:40:52.733Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:41:05.408Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:41:05.414Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /post/67de80876ea9735a0920f721","timestamp":"2025-03-22T10:41:20.754Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T10:41:32.879Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /post/67de80876ea9735a0920f721","timestamp":"2025-03-22T10:41:54.390Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:42:40.897Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:42:40.903Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /post/67de80876ea9735a0920f721","timestamp":"2025-03-22T10:44:12.783Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /post/67de819f0cfda3f014edca04","timestamp":"2025-03-22T10:45:56.325Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/like/67de819f0cfda3f014edca04","timestamp":"2025-03-22T10:47:36.315Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /post","timestamp":"2025-03-22T10:48:44.889Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/like/67de819f0cfda3f014edca04","timestamp":"2025-03-22T10:50:47.585Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:51:35.635Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:51:35.642Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/like/67de819f0cfda3f014edca04","timestamp":"2025-03-22T10:51:42.234Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:52:14.216Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:52:14.222Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:52:24.216Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:52:24.223Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/like","timestamp":"2025-03-22T10:52:36.652Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/like","timestamp":"2025-03-22T10:52:46.429Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:53:12.430Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:53:12.436Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/like/67de819f0cfda3f014edca04","timestamp":"2025-03-22T10:53:18.719Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /post","timestamp":"2025-03-22T10:53:55.590Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /post","timestamp":"2025-03-22T10:54:00.083Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/like/67de819f0cfda3f014edca04","timestamp":"2025-03-22T10:54:18.493Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /post","timestamp":"2025-03-22T10:54:24.803Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /post/like/67de819f0cfda3f014edca04","timestamp":"2025-03-22T10:54:34.205Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:55:41.053Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:55:41.059Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:55:54.567Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:55:54.575Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T10:56:18.333Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T10:56:18.342Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:08:54.687Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:09:06.961Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Comment validation failed: comment: Path `comment` is required.","timestamp":"2025-03-22T11:09:06.996Z"}
+{"API":"E-Commerce","level":"error","message":"ValidationError: Comment validation failed: comment: Path `comment` is required.\n    at Document.invalidate (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\document.js:3329:32)\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\document.js:3090:17\n    at C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-03-22T11:09:06.998Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:10:04.236Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /post/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:10:33.480Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:11:45.719Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:11:54.333Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:12:25.928Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:16:32.308Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:16:44.191Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T11:18:11.294Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:18:38.166Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:22:34.513Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:22:43.148Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T11:23:46.291Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:24:08.551Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:24:12.665Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:25:11.380Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:25:14.993Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:25:55.900Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:31:48.755Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:31:48.761Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:32:23.544Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:32:23.550Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:33:14.716Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:33:14.722Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:33:54.164Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:33:54.170Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:35:00.271Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:35:00.276Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:35:09.796Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:35:09.803Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment","timestamp":"2025-03-22T11:36:30.666Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment","timestamp":"2025-03-22T11:36:51.440Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:37:21.115Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:37:21.123Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment","timestamp":"2025-03-22T11:37:24.804Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment","timestamp":"2025-03-22T11:37:29.724Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:39:27.689Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /comment/","timestamp":"2025-03-22T11:39:36.107Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /comment/","timestamp":"2025-03-22T11:40:48.637Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /comment/","timestamp":"2025-03-22T11:41:48.245Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T11:43:05.142Z"}
+{"API":"E-Commerce","level":"info","message":"Received a PUT request to /comment/","timestamp":"2025-03-22T11:43:34.825Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:44:40.761Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:45:47.870Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:46:08.247Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:47:44.482Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:49:14.643Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:50:10.297Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:50:20.702Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:50:45.522Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: id is not defined","timestamp":"2025-03-22T11:50:45.530Z"}
+{"API":"E-Commerce","level":"error","message":"ReferenceError: id is not defined\n    at deleteComment (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\comment.controller.js:109:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-03-22T11:50:45.531Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:51:40.975Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:51:40.981Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:51:52.750Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:51:52.756Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:52:08.922Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:52:08.942Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:52:12.485Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:52:15.216Z"}
+{"API":"E-Commerce","level":"info","message":"Received a DELETE request to /comment/","timestamp":"2025-03-22T11:52:49.920Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de9a8c42b49d07b862a561","timestamp":"2025-03-22T11:53:47.460Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de9af142b49d07b862a566","timestamp":"2025-03-22T11:54:08.673Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de81730cfda3f014edca00","timestamp":"2025-03-22T11:55:38.999Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:55:59.825Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:56:03.393Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:56:29.190Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T11:57:21.147Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T11:57:21.154Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:57:29.455Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T11:57:31.198Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:00:55.239Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:01:56.432Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:01:56.439Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:02:12.014Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:02:14.374Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:02:38.275Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:02:38.281Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:03:14.679Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:03:35.301Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:03:35.306Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:03:39.604Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:11:22.369Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:11:22.376Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:12:32.878Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:12:34.759Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:12:35.950Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment","timestamp":"2025-03-22T12:12:46.154Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:13:26.674Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:13:26.681Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:13:38.743Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:13:40.973Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:15:08.147Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:15:08.154Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:15:22.724Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:15:24.465Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:15:25.813Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:16:59.756Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:16:59.761Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post","timestamp":"2025-03-22T12:17:14.533Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Cast to ObjectId failed for value \"post\" (type string) at path \"_id\" for model \"Comment\"","timestamp":"2025-03-22T12:17:14.545Z"}
+{"API":"E-Commerce","level":"error","message":"CastError: Cast to ObjectId failed for value \"post\" (type string) at path \"_id\" for model \"Comment\"\n    at SchemaObjectId.cast (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at cast (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\cast.js:390:32)\n    at Query.cast (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:4907:12)\n    at Query._castConditions (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:2325:10)\n    at model.Query._findOne (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:2648:8)\n    at model.Query.exec (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getSingleComment (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\comment.controller.js:131:19)","timestamp":"2025-03-22T12:17:14.546Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:18:00.951Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:18:00.960Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post","timestamp":"2025-03-22T12:18:33.193Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Cast to ObjectId failed for value \"post\" (type string) at path \"_id\" for model \"Comment\"","timestamp":"2025-03-22T12:18:33.201Z"}
+{"API":"E-Commerce","level":"error","message":"CastError: Cast to ObjectId failed for value \"post\" (type string) at path \"_id\" for model \"Comment\"\n    at SchemaObjectId.cast (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at cast (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\cast.js:390:32)\n    at Query.cast (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:4907:12)\n    at Query._castConditions (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:2325:10)\n    at model.Query._findOne (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:2648:8)\n    at model.Query.exec (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getSingleComment (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\comment.controller.js:131:19)","timestamp":"2025-03-22T12:18:33.203Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post","timestamp":"2025-03-22T12:18:34.869Z"}
+{"API":"E-Commerce","level":"error","message":"❌ Error: Cast to ObjectId failed for value \"post\" (type string) at path \"_id\" for model \"Comment\"","timestamp":"2025-03-22T12:18:34.871Z"}
+{"API":"E-Commerce","level":"error","message":"CastError: Cast to ObjectId failed for value \"post\" (type string) at path \"_id\" for model \"Comment\"\n    at SchemaObjectId.cast (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at cast (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\cast.js:390:32)\n    at Query.cast (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:4907:12)\n    at Query._castConditions (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:2325:10)\n    at model.Query._findOne (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:2648:8)\n    at model.Query.exec (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\node_modules\\mongoose\\lib\\query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getSingleComment (C:\\Users\\MICHEAL\\Desktop\\Axia-projects\\Blog\\controllers\\comment.controller.js:131:19)","timestamp":"2025-03-22T12:18:34.872Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:33:49.990Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:33:49.997Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment","timestamp":"2025-03-22T12:34:22.586Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:38:24.763Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:38:36.461Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:38:36.468Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:38:41.175Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:40:16.621Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:40:16.628Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:40:23.509Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment","timestamp":"2025-03-22T12:40:51.387Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /auth/login","timestamp":"2025-03-22T12:41:07.426Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment","timestamp":"2025-03-22T12:42:35.042Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment","timestamp":"2025-03-22T12:42:50.994Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:43:31.591Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:43:57.036Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post/67de81730cfda3f014edca00","timestamp":"2025-03-22T12:44:11.584Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment","timestamp":"2025-03-22T12:44:36.651Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post/67de81730cfda3f014edca00","timestamp":"2025-03-22T12:45:17.801Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post/67de81730cfda3f014edca00","timestamp":"2025-03-22T12:45:35.487Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/post/67de819f0cfda3f014edca04","timestamp":"2025-03-22T12:46:04.931Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67de9af142b49d07b862a566","timestamp":"2025-03-22T12:47:30.111Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:47:59.735Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67deb04b50505b2b8519b8d8","timestamp":"2025-03-22T12:48:10.136Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:48:26.101Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/like/","timestamp":"2025-03-22T12:49:40.640Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/like/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:49:45.820Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/like/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:50:20.618Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/like/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:50:22.789Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/like/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:50:24.622Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:50:46.593Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/like/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:50:55.831Z"}
+{"API":"E-Commerce","level":"info","message":"Received a GET request to /comment/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:51:04.298Z"}
+{"API":"E-Commerce","level":"info","message":"Received a POST request to /comment/like/67deb04b50505b2b8519b8d3","timestamp":"2025-03-22T12:51:11.965Z"}
+{"API":"E-Commerce","level":"info","message":" MongoDB connected successfully.","timestamp":"2025-03-22T12:51:36.675Z"}
+{"API":"E-Commerce","level":"info","message":" Server running on 5001","timestamp":"2025-03-22T12:51:36.680Z"}

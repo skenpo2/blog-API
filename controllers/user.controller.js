@@ -70,9 +70,7 @@ const deleteUser = async (req, res) => {
 const getUser = async (req, res) => {
   const userId = req.params.userId;
 
-  console.log(userId);
-
-  const user = await User.findById(userId);
+  const user = await User.findById(userId).select('name posts comments');
 
   if (!user) {
     return res.status(404).json({
@@ -88,10 +86,10 @@ const getUser = async (req, res) => {
 };
 
 const getAllUsers = async (req, res) => {
-  const users = await User.find({});
+  const users = await User.find({}).select('name posts comments');
 
   if (!users?.length) {
-    res.status(404).json({
+    return res.status(404).json({
       success: true,
       message: 'No user found',
     });

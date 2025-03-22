@@ -28,11 +28,26 @@ const validatePost = (data) => {
       .required(),
     image: Joi.object({
       url: Joi.string().uri().required(),
-      public_id: Joi.string().required(),
+      publicId: Joi.string().required(),
     }).optional(),
   });
 
   return schema.validate(data);
 };
 
-module.exports = { validateRegistration, validateLogin, validatePost };
+const validateEditedUser = (data) => {
+  const schema = Joi.object({
+    name: Joi.string().min(3).max(50),
+    email: Joi.string().email(),
+    password: Joi.string().min(6),
+  });
+
+  return schema.validate(data);
+};
+
+module.exports = {
+  validateRegistration,
+  validateEditedUser,
+  validateLogin,
+  validatePost,
+};

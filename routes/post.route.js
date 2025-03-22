@@ -20,7 +20,7 @@ router.post('/', verifyJWT, addPost);
 router.put('/:postId', verifyJWT, editPost);
 router.delete('/:postId', verifyJWT, deletePost);
 router.get('/:postId', getOnePost);
-router.post('/like:postId', verifyJWT, likePost);
+router.post('/like/:postId', verifyJWT, likePost);
 router.get('/', getAllPost);
 
 module.exports = router;

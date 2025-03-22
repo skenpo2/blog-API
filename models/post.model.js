@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const { deleteImage } = require('../utils/cloudinary');
 
 const postSchema = new mongoose.Schema(
   {
@@ -40,6 +41,7 @@ const postSchema = new mongoose.Schema(
 
     isFeatured: {
       type: Boolean,
+      default: false,
     },
 
     comments: [
@@ -59,11 +61,11 @@ const postSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// Middleware to delete associated comments and likes when a post is deleted
+// Middleware to delete associated comments  when a post is deleted
 postSchema.pre('findOneAndDelete', async function (next) {
   const post = await this.model.findOne(this.getFilter());
   if (post) {
-    // Delete associated comments and likes
+    // Delete associated comments
     await mongoose.model('Comment').deleteMany({ _id: { $in: post.comments } });
 
     // Delete image from Cloudinary
