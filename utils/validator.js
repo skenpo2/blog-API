@@ -29,7 +29,7 @@ const validatePost = (data) => {
     image: Joi.object({
       url: Joi.string().uri().required(),
       publicId: Joi.string().required(),
-    }).optional(),
+    }),
   });
 
   return schema.validate(data);

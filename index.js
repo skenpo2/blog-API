@@ -50,10 +50,10 @@ app.use((req, res, next) => {
 });
 
 // Routes
-app.use('/auth', authRoutes);
-app.use('/user', userRoutes);
-app.use('/post', postRoutes);
-app.use('/comment', commentRoutes);
+app.use('/api/auth', authRoutes);
+app.use('/api/user', userRoutes);
+app.use('/api/post', postRoutes);
+app.use('/api/comment', commentRoutes);
 
 // Handle 404 Errors (Page Not Found)
 app.use((req, res, next) => {

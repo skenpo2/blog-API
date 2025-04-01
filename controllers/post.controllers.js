@@ -178,17 +178,44 @@ const getOnePost = async (req, res) => {
 // @route  GET /api/post
 // @access Public
 const getAllPost = async (req, res) => {
-  const posts = await Post.find({});
+  let { category, sort, page = 1, limit = 10, startDate, endDate } = req.query;
 
-  if (!posts) {
-    return res.status(404).json({
-      success: true,
-      message: 'No post found',
-    });
+  let filter = {};
+
+  // Filter by category
+  if (category) {
+    filter.category = category;
   }
+
+  // Filter by date range
+  if (startDate || endDate) {
+    filter.createdAt = {};
+    if (startDate) filter.createdAt.$gte = new Date(startDate);
+    if (endDate) filter.createdAt.$lte = new Date(endDate);
+  }
+
+  // Sorting logic
+  let sortOption = { createdAt: -1 }; // Default: Newest first
+  if (sort === 'oldest') {
+    sortOption = { createdAt: 1 };
+  }
+
+  // Pagination
+  const skip = (parseInt(page) - 1) * parseInt(limit);
+
+  // Fetch posts
+  const posts = await Post.find(filter)
+    .sort(sortOption)
+    .skip(skip)
+    .limit(parseInt(limit));
+
+  const totalPosts = await Post.countDocuments(filter);
 
   res.status(200).json({
     success: true,
+    totalPosts,
+    currentPage: parseInt(page),
+    totalPages: Math.ceil(totalPosts / limit),
     data: posts,
   });
 };
