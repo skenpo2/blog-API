@@ -32,6 +32,7 @@ const updateUser = async (req, res) => {
 
   await user.save();
 
+  user.password = '';
   res.status(200).json({
     success: true,
     data: user,
@@ -100,7 +101,7 @@ const getUser = async (req, res) => {
 // @route  GET  /api/user
 // @access Private (Admin Only)
 const getAllUsers = async (req, res) => {
-  const users = await User.find({}).select('name posts comments');
+  const users = await User.find({}).select('name');
 
   if (!users?.length) {
     return res.status(404).json({

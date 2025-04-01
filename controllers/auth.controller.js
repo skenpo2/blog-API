@@ -79,6 +79,7 @@ const loginUser = async (req, res) => {
 
   const refreshToken = generateRefreshToken(isUser);
 
+  isUser.password = '';
   res
     .status(200)
     .cookie('jwt', refreshToken, {
